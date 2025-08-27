@@ -1113,7 +1113,10 @@ redis==5.0.1</pre>
                     <h3>🔧 Hardware Requirements</h3>
                     <ul>
                         <li><strong>NFC Reader:</strong> ACR122U or compatible (ISO14443 Type A/B)</li>
-                        <li><strong>NFC Tokens:</strong> MIFARE Classic or NTAG213/215/216</li>
+                        <li><strong>RFID Reader:</strong> Proxmark3 Easy (optional, for advanced analysis)</li>
+                        <li><strong>NESDR:</strong> NooElec NESDR SMArt v4 (for RF spectrum analysis)</li>
+                        <li><strong>NFC Tokens:</strong> NTAG213/215/216 or MIFARE Classic</li>
+                        <li><strong>RFID Tokens:</strong> EM4100/T5577 125kHz (alternative/backup)</li>
                         <li><strong>Operating System:</strong> Linux, macOS, Windows 10+</li>
                         <li><strong>Python Version:</strong> 3.8+ required</li>
                         <li><strong>Memory:</strong> 512MB RAM minimum</li>
@@ -1212,15 +1215,33 @@ redis==5.0.1</pre>
                         <tbody>
                             <tr>
                                 <td><strong>NFC Reader</strong></td>
-                                <td>ACR122U USB NFC Reader</td>
+                                <td>ACR122U USB NFC Reader (ISO14443 A/B)</td>
                                 <td>1 per workstation</td>
                                 <td>$25</td>
                             </tr>
                             <tr>
+                                <td><strong>RFID Reader (Alternative)</strong></td>
+                                <td>Proxmark3 Easy (125kHz/13.56MHz)</td>
+                                <td>1 per security team</td>
+                                <td>$45</td>
+                            </tr>
+                            <tr>
+                                <td><strong>NESDR (Software Defined Radio)</strong></td>
+                                <td>NooElec NESDR SMArt v4 (RTL2832U)</td>
+                                <td>1 per security analysis setup</td>
+                                <td>$35</td>
+                            </tr>
+                            <tr>
                                 <td><strong>NFC Tokens</strong></td>
-                                <td>NTAG213/215 (ISO14443 Type A)</td>
+                                <td>NTAG213/215/216 (ISO14443 Type A)</td>
                                 <td>2-3 per user</td>
                                 <td>$2 each</td>
+                            </tr>
+                            <tr>
+                                <td><strong>RFID Tokens (Alternative)</strong></td>
+                                <td>EM4100/T5577 125kHz Cards</td>
+                                <td>1-2 per user (backup)</td>
+                                <td>$1.50 each</td>
                             </tr>
                             <tr>
                                 <td><strong>Backup Tokens</strong></td>
