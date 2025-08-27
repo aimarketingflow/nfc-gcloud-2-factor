@@ -21,7 +21,7 @@ spec:
       containerConcurrency: 1000
       timeoutSeconds: 300
       containers:
-      - image: gcr.io/androidappmobileshield/aimf-auth-server:latest
+      - image: gcr.io/your-gcp-project-id/aimf-auth-server:latest
         ports:
         - containerPort: 8080
         env:

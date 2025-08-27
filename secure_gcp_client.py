@@ -200,8 +200,8 @@ def demonstrate_stolen_credential_protection():
     
     # Manually inject stolen credentials (simulating theft)
     stolen_client.credentials = {
-        "project_id": "androidappmobileshield",
-        "client_email": "nfc-auth-service@androidappmobileshield.iam.gserviceaccount.com",
+        "project_id": "your-gcp-project-id",
+        "client_email": "nfc-auth-service@your-gcp-project-id.iam.gserviceaccount.com",
         "private_key": "[STOLEN_KEY]"
     }
     stolen_client.last_auth_time = datetime.now()  # Fake fresh auth

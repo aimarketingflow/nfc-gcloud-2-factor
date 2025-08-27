@@ -52,7 +52,7 @@ def attempt_unauthorized_access():
     
     common_attempts = [
         "password", "123456", "admin", "google",
-        "androidappmobileshield", "mobileshield", 
+        "your-gcp-project-id", "mobileshield", 
         "nfc", "aimf", "0000000000", "1234567890"
     ]
     

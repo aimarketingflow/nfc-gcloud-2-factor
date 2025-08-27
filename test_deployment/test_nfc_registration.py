@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Test NFC Token Registration with AIMF Auth Server
-Register dual NFC tokens for androidappmobileshield project testing
+Register dual NFC tokens for your-gcp-project-id project testing
 
 AIMF LLC - MobileShield NFC Chaos Writer Ecosystem
 """

@@ -26,15 +26,15 @@ def run_complete_test():
     # Your actual Google Cloud credentials that will be encrypted
     gcp_credentials = {
         "type": "service_account",
-        "project_id": "androidappmobileshield",
+        "project_id": "your-gcp-project-id",
         "private_key_id": "3b7e5f89c1234567890abcdef1234567890abcde",
         "private_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5W8aH+xYZ9nH7kL2mN...\n-----END RSA PRIVATE KEY-----",
-        "client_email": "nfc-auth-service@androidappmobileshield.iam.gserviceaccount.com",
+        "client_email": "nfc-auth-service@your-gcp-project-id.iam.gserviceaccount.com",
         "client_id": "123456789012345678901",
         "auth_uri": "https://accounts.google.com/o/oauth2/auth",
         "token_uri": "https://oauth2.googleapis.com/token",
         "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nfc-auth-service%40androidappmobileshield.iam.gserviceaccount.com",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nfc-auth-service%40your-gcp-project-id.iam.gserviceaccount.com",
         "universe_domain": "googleapis.com"
     }
     
@@ -180,7 +180,7 @@ def run_complete_test():
         if all_present:
             print("  ✅ All required fields present")
             print("  ✅ Service account credentials complete")
-            print("  ✅ Project ID verified: androidappmobileshield")
+            print("  ✅ Project ID verified: your-gcp-project-id")
             print("  ✅ Ready for Google Cloud API authentication")
             print()
             print("🎉 VAULT TEST COMPLETE - ALL SYSTEMS GO!")

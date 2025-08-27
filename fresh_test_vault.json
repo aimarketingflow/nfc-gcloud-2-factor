@@ -12,7 +12,7 @@
     "runtime_assembly": true
   },
   "metadata": {
-    "project_id": "androidappmobileshield",
+    "project_id": "your-gcp-project-id",
     "vault_purpose": "Google Cloud Authentication"
   }
 }

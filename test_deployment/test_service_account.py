@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Test Google Cloud Service Account Access
-Tests androidappmobileshield project connectivity
+Tests your-gcp-project-id project connectivity
 
 AIMF LLC - MobileShield NFC Chaos Writer Ecosystem
 """
@@ -14,7 +14,7 @@ def test_service_account():
     """Test service account authentication and permissions"""
     
     print("🔍 Testing Google Cloud Service Account")
-    print("   Project: androidappmobileshield")
+    print("   Project: your-gcp-project-id")
     print()
     
     # Check for service account key
@@ -22,7 +22,7 @@ def test_service_account():
     if not sa_key_file.exists():
         print("❌ Service account key file not found!")
         print("   Please download from Google Cloud Console:")
-        print("   https://console.cloud.google.com/iam-admin/serviceaccounts?project=androidappmobileshield")
+        print("   https://console.cloud.google.com/iam-admin/serviceaccounts?project=your-gcp-project-id")
         print("   Save as: service_account_key.json")
         return False
     
@@ -38,7 +38,7 @@ def test_service_account():
         print()
         
         # Verify it's the expected service account
-        expected_email = "firebase-adminsdk-fbsyc@androidappmobileshield.iam.gserviceaccount.com"
+        expected_email = "firebase-adminsdk-fbsyc@your-gcp-project-id.iam.gserviceaccount.com"
         if sa_data.get('client_email') != expected_email:
             print(f"⚠️  Unexpected service account email: {sa_data.get('client_email')}")
             print(f"   Expected: {expected_email}")
