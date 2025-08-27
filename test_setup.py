@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Test Setup for AIMF NFC Cloud Authentication
-Uses androidappmobileshield Google Cloud project
+Uses your-gcp-project-id Google Cloud project
 
 AIMF LLC - MobileShield NFC Chaos Writer Ecosystem
 """
@@ -12,10 +12,10 @@ import subprocess
 from pathlib import Path
 
 def setup_testing_environment():
-    """Set up testing environment for androidappmobileshield project"""
+    """Set up testing environment for your-gcp-project-id project"""
     
     print("🔷 AIMF NFC Cloud Authentication Test Setup")
-    print("   Project: androidappmobileshield")
+    print("   Project: your-gcp-project-id")
     print()
     
     # Create test directory
@@ -26,8 +26,8 @@ def setup_testing_environment():
     
     # Project configuration
     project_config = {
-        "project_id": "androidappmobileshield",
-        "service_account_email": "firebase-adminsdk-fbsyc@androidappmobileshield.iam.gserviceaccount.com",
+        "project_id": "your-gcp-project-id",
+        "service_account_email": "firebase-adminsdk@your-gcp-project-id.iam.gserviceaccount.com",
         "service_account_id": "117185563659756571309",
         "auth_server_url": "http://localhost:5000",  # Local testing first
         "test_user_id": "aimf_test_user"
@@ -43,8 +43,8 @@ def setup_testing_environment():
 # Service Account Key Setup Instructions
 
 ## Step 1: Download Service Account Key
-1. Go to: https://console.cloud.google.com/iam-admin/serviceaccounts?project=androidappmobileshield
-2. Find: firebase-adminsdk-fbsyc@androidappmobileshield.iam.gserviceaccount.com
+1. Go to: https://console.cloud.google.com/iam-admin/serviceaccounts?project=your-gcp-project-id
+2. Find: firebase-adminsdk@your-gcp-project-id.iam.gserviceaccount.com
 3. Click "..." → "Manage Keys" → "Add Key" → "Create New Key"
 4. Choose JSON format and download
 5. Save as: service_account_key.json in this directory

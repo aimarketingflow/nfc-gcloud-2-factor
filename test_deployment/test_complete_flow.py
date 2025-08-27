@@ -2,7 +2,7 @@
 """
 Test Complete NFC Cloud Authentication Flow
 Tests full integration: NFC → AIMF Cloud → Google Cloud
-Uses androidappmobileshield project with API key
+Uses your-gcp-project-id project with API key
 
 AIMF LLC - MobileShield NFC Chaos Writer Ecosystem
 """
@@ -149,7 +149,7 @@ def main():
     """Main test execution"""
     
     print("🔷 AIMF NFC Cloud Authentication - Complete Flow Test")
-    print("   androidappmobileshield Project Integration")
+    print("   your-gcp-project-id Project Integration")
     print()
     
     # Check prerequisites

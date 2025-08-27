@@ -81,10 +81,10 @@ class InvisibleNFCVault:
         # Google Cloud credentials (sanitized for demo)
         credentials = {
             "type": "service_account",
-            "project_id": "androidappmobileshield",
+            "project_id": "your-gcp-project-id",
             "private_key_id": hashlib.sha256(b"demo_key_id").hexdigest()[:40],
             "private_key": "-----BEGIN PRIVATE KEY-----\n[ENCRYPTED]\n-----END PRIVATE KEY-----",
-            "client_email": "nfc-auth@androidappmobileshield.iam.gserviceaccount.com",
+            "client_email": "nfc-auth@your-gcp-project-id.iam.gserviceaccount.com",
             "client_id": "123456789012345678901"
         }
         

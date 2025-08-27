@@ -1,7 +1,7 @@
 {
-  "project_id": "androidappmobileshield",
-  "api_key": "AIzaSyCLF1C87sNFJcvufDOp67pxiGteuGDmr_c",
-  "service_account_email": "firebase-adminsdk-fbsyc@androidappmobileshield.iam.gserviceaccount.com",
+  "project_id": "your-gcp-project-id",
+  "api_key": "YOUR-FIREBASE-API-KEY",
+  "service_account_email": "firebase-adminsdk@your-gcp-project-id.iam.gserviceaccount.com",
   "service_account_id": "117185563659756571309",
   "auth_server_url": "http://localhost:5000",
   "test_user_id": "aimf_test_user_androidapp",

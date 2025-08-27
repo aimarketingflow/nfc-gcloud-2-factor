@@ -3,7 +3,7 @@
 
 ## Step 1: Download Service Account Key
 1. Go to: https://console.cloud.google.com/iam-admin/serviceaccounts?project=your-gcp-project-id
-2. Find: firebase-adminsdk-fbsyc@androidappmobileshield.iam.gserviceaccount.com
+2. Find: firebase-adminsdk@your-gcp-project-id.iam.gserviceaccount.com
 3. Click "..." → "Manage Keys" → "Add Key" → "Create New Key"
 4. Choose JSON format and download
 5. Save as: service_account_key.json in this directory

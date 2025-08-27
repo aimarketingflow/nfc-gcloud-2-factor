@@ -22,15 +22,15 @@ def simulate_stolen_credentials():
     # Simulated stolen credentials (what would be in memory after decryption)
     stolen_creds = {
         "type": "service_account",
-        "project_id": "androidappmobileshield",
+        "project_id": "your-gcp-project-id",
         "private_key_id": "a1b2c3d4e5f6789",
         "private_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA...[KEY_DATA]...\n-----END RSA PRIVATE KEY-----\n",
-        "client_email": "nfc-auth-service@androidappmobileshield.iam.gserviceaccount.com",
+        "client_email": "nfc-auth-service@your-gcp-project-id.iam.gserviceaccount.com",
         "client_id": "123456789012345678901",
         "auth_uri": "https://accounts.google.com/o/oauth2/auth",
         "token_uri": "https://oauth2.googleapis.com/token",
         "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nfc-auth-service%40androidappmobileshield.iam.gserviceaccount.com"
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nfc-auth-service%40your-gcp-project-id.iam.gserviceaccount.com"
     }
     
     print("💀 ATTACKER HAS OBTAINED:")
@@ -105,7 +105,7 @@ def show_secure_credential_transfer():
         "nfc_fingerprint": nfc_fingerprint,
         "timestamp": timestamp,
         "expires": (datetime.now() + timedelta(minutes=5)).isoformat(),
-        "download_url": "https://androidappmobileshield.iam.gserviceaccount.com/v1/provision",
+        "download_url": "https://your-gcp-project-id.iam.gserviceaccount.com/v1/provision",
         "one_time_token": hashlib.sha256(f"{device_id}{nfc_fingerprint}{timestamp}".encode()).hexdigest()
     }
     

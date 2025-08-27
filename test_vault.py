@@ -12,7 +12,7 @@ print("=" * 40)
 
 # Simulate credential encryption
 test_credentials = {
-    "project_id": "androidappmobileshield",
+    "project_id": "your-gcp-project-id",
     "type": "service_account"
 }
 

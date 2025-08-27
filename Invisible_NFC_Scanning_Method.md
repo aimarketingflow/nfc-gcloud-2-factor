@@ -102,7 +102,7 @@ def invisible_input_capture():
 - **Encryption**: ✅ Single tag successfully encrypts Google Cloud credentials
 - **Decryption**: ✅ Same tag successfully decrypts and reassembles credentials
 - **Google Cloud Auth**: ✅ All required fields present for GCP authentication
-- **Project Verification**: ✅ androidappmobileshield project confirmed
+- **Project Verification**: ✅ your-gcp-project-id project confirmed
 
 ## Security Verification Protocol
 
@@ -163,8 +163,8 @@ def invisible_input_capture():
 
 ### Credential Vault Structure
 The system encrypts complete Google Cloud service account credentials:
-- **Project ID**: androidappmobileshield
-- **Service Account**: nfc-auth-service@androidappmobileshield.iam.gserviceaccount.com
+- **Project ID**: your-gcp-project-id
+- **Service Account**: nfc-auth-service@your-gcp-project-id.iam.gserviceaccount.com
 - **Private Key**: RSA private key for authentication
 - **Token Endpoints**: OAuth2 and API endpoints
 - **Client Information**: Client ID and certificate URLs
