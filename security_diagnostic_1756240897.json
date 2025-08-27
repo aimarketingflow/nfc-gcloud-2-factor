@@ -1,0 +1,374 @@
+{
+  "scan_time": "2025-08-26T13:41:30.898595",
+  "findings": [],
+  "alerts": [],
+  "hardware_status": {
+    "usb_device_count": 13,
+    "nfc_readers_detected": false,
+    "suspicious_devices": [
+      "generic"
+    ],
+    "hardware_overview": "Hardware:\n\n    Hardware Overview:\n\n      Model Name: MacBook Pro\n      Model Identifier: MacBookPro16,2\n      Processor Name: Quad-Core Intel Core i5\n      Processor Speed: 2 GHz\n      Number of Processors: 1\n      Total Number of Cores: 4\n      L2 Cache (per Core): 512 KB\n      L3 Cache: 6 MB\n      Hyper-Threading Technology: Enabled\n      Memory: 16 GB\n      System Firmware Version: 2075.140.4.0.0 (iBridge: 22.16.16083.0.0,0)\n      OS Loader Version: 583~2210\n      Serial Number (system): C02C"
+  },
+  "network_status": {
+    "listening_ports": [
+      "127.0.0.1.5004",
+      "127.0.0.1.5003",
+      "*.5002",
+      "*.5001",
+      "*.5000",
+      "*.50701",
+      "*.50701",
+      "127.0.0.1.49234",
+      "127.0.0.1.49224",
+      "127.0.0.1.49221",
+      "fe80::aede:48ff:.49166",
+      "fe80::aede:48ff:.49165",
+      "fe80::aede:48ff:.49164",
+      "fe80::aede:48ff:.49163",
+      "fe80::aede:48ff:.49162",
+      "fe80::aede:48ff:.49161",
+      "fe80::aede:48ff:.49160",
+      "fe80::aede:48ff:.49159",
+      "fe80::aede:48ff:.49158",
+      "fe80::aede:48ff:.49157"
+    ],
+    "total_listening": 24,
+    "suspicious_ports": [],
+    "external_connections": [
+      {
+        "process": "corespeec",
+        "connection": "[fe80:4::aede:48ff:fe00:1122]:50703->[fe80:4::aede:48ff:fe33:4455]:49252"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "192.168.0.76:59001->35.223.238.178:https"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:51180->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49782->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "192.168.0.76:58533->35.223.238.178:https"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49783->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49784->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49785->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:50972->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49221->127.0.0.1:54276"
+      }
+    ],
+    "suspicious_connections": [
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:51180->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49782->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49783->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49784->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49785->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:50972->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49221->127.0.0.1:54276"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49221->127.0.0.1:54898"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49221->127.0.0.1:53237"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:53288->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:54343->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49221->127.0.0.1:54795"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49221->127.0.0.1:56956"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:54844->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:54953->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49242->127.0.0.1:49234"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49221->127.0.0.1:59051"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49221->127.0.0.1:55486"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:56992->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:49221->127.0.0.1:59061"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:55541->127.0.0.1:49224"
+      },
+      {
+        "process": "Windsurf",
+        "connection": "127.0.0.1:59066->127.0.0.1:49224"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:49782"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:50972"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:49783"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:49784"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:49785"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:56956->127.0.0.1:49221"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:51180"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49234->127.0.0.1:49242"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:55123->127.0.0.1:49224"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:59051->127.0.0.1:49221"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:54795->127.0.0.1:49221"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:59061->127.0.0.1:49221"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:55123"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:54343"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:55541"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:53237->127.0.0.1:49221"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:53288"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:54276->127.0.0.1:49221"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:54898->127.0.0.1:49221"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:54844"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:55486->127.0.0.1:49221"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:56992"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:54953"
+      },
+      {
+        "process": "language_",
+        "connection": "127.0.0.1:49224->127.0.0.1:59066"
+      }
+    ]
+  },
+  "process_status": {
+    "total_processes": 747,
+    "user_process_count": {
+      "root": 184,
+      "_accessoryupdater": 9,
+      "_softwareupdate": 5,
+      "_corespeechd": 1,
+      "_iconservices": 1,
+      "_timed": 1,
+      "_usbmuxd": 1,
+      "_locationd": 7,
+      "_displaypolicyd": 1,
+      "_distnote": 1,
+      "_windowserver": 2,
+      "_analyticsd": 1,
+      "flowgirl": 472,
+      "_trustd": 1,
+      "_networkd": 1,
+      "_mdnsresponder": 1,
+      "_coreaudiod": 6,
+      "_biome": 1,
+      "_nsurlsessiond": 4,
+      "_cmiodalassistants": 5,
+      "_spotlight": 2,
+      "_driverkit": 3,
+      "_hidd": 1,
+      "_appleevents": 2,
+      "_neuralengine": 3,
+      "_gamecontrollerd": 2,
+      "_applepay": 5,
+      "_ctkd": 1,
+      "_nearbyd": 1,
+      "_assetcache": 2,
+      "_fpsd": 3,
+      "_modelmanagerd": 1,
+      "_installcoordinationd": 1,
+      "_rmd": 12,
+      "_captiveagent": 1,
+      "_audiomxd": 1,
+      "_netbios": 1
+    },
+    "suspicious_processes": [
+      {
+        "pid": "23701",
+        "user": "flowgirl",
+        "command": "/usr/local/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/",
+        "keyword": "python -c"
+      },
+      {
+        "pid": "62619",
+        "user": "flowgirl",
+        "command": "/usr/local/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/",
+        "keyword": "python -c"
+      },
+      {
+        "pid": "33329",
+        "user": "flowgirl",
+        "command": "/usr/local/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/",
+        "keyword": "python -c"
+      },
+      {
+        "pid": "33330",
+        "user": "flowgirl",
+        "command": "/usr/local/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/",
+        "keyword": "python -c"
+      },
+      {
+        "pid": "62774",
+        "user": "flowgirl",
+        "command": "/usr/local/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/",
+        "keyword": "python -c"
+      },
+      {
+        "pid": "62785",
+        "user": "flowgirl",
+        "command": "/usr/local/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/",
+        "keyword": "python -c"
+      },
+      {
+        "pid": "43012",
+        "user": "flowgirl",
+        "command": "/usr/local/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/",
+        "keyword": "python -c"
+      },
+      {
+        "pid": "43887",
+        "user": "flowgirl",
+        "command": "/usr/local/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/",
+        "keyword": "python -c"
+      },
+      {
+        "pid": "51433",
+        "user": "flowgirl",
+        "command": "/usr/local/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/",
+        "keyword": "python -c"
+      }
+    ]
+  },
+  "system_status": {
+    "usb_log_events": 0,
+    "rfid_log_events": 0,
+    "recent_log_sample": "No recent logs found",
+    "brew_packages": 217,
+    "recent_modifications": [
+      "/usr/local/lib/python3.13/site-packages/pip/__pycache__/__main__.cpython-313.pyc"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version": "3.0",
+  "algorithm": "DUAL-NFC-PBKDF2-XOR",
+  "created": "2025-08-26T21:28:47.913114",
+  "tag_count": 2,
+  "iterations": 100000,
+  "encrypted_payload": "99SF8RkI86lXfWme6AwO4DqMobCmCYK4mP2dctd/pe7mk5L8NgS1sU1/OJr0HhXsNreho7ULmLSFs9QhnWay7ejU3ahLHaP6AT5unsURAvoAuqTx/0bV5Y7o1GeTN+7ivcTCvFxb5qtOb3uZ+R4C5W7h8+fwUMDu1e/QMJZrsqOg1tP4GwSn8gM6RZD/A0W5f/Ht/uhL2pSpmPgc1V+FyNq3pc1JJpTKWnI31rcmCc4WmoWllC+1l6ie/xCSZKbp55+2sR5dk9ImGly62ykkwRSwt7SiNZ2Xi5rwE5pGlcDdtcTfUQyZvVlxRpW3V0qucpaOl+U2pZ+6nuUX1USS2KHb3KVET/2zVTx2kv8UE9w6vqG6qUTN9s6x1zHYbqL15NuC7RsbuPASH3uV/ggI6juysKOoCZW/gLrCOpxqu+Win5DlRwqi9gUpc5j/GwTgMKaup+sFmLvO85FwlmO+5OKCruENT+uzVW4oyK5PUbRn6vDi91XD49roiWvFPvWtrNSQ/R0FjuYFNjjBulgP9yujs+nqSZa1j7DEPIF8+ebjmZbkDEOy/BpwddT1GxL3N+HvsrASn/TA/5MmmmSy79ODg+FLV/GxHytui+lASKwwsrWnrVTZsYOw1j6Qbqfo/9iS5wRCpfwcOnTZtlpF4iqnqIy1FJighbvUIKp34rG1qZLtGxmO5gUzOMG6WA/3K6Oz6epJgKGb8dY9mmi75O2GmPtHDr7+WDB7ju4SVawp4u+woBSDpc7zkXCWY77k4oKu8Fxd6MwUOmiPxQ8V733p4PGtEoOmn+WefYJ4oK/rmZ7vBQiw4x4sNJj1F0jxMLGvp+oQxvmBusUzkW6j4KOOxLhQQr/1FHJ7ju4SSvA6oba6pgPS4ty+3zaHYL7l7YaB5QYPuP8SLHKS/xYDrTayrf2iFZKkmrbSN5RstO75mIWmCgK8sVt/OI70ExHmLaCljKEJmreFsZNo1S2w7uORne0IHbjgWTx1lrgH",
+  "checksum": "c4a8e6e51725924f",
+  "security": {
+    "dual_factor": true,
+    "uid_exposure": "TESTING_MODE",
+    "runtime_assembly": true
+  },
+  "metadata": {
+    "project_id": "androidappmobileshield",
+    "vault_purpose": "Google Cloud Authentication"
+  }
+}

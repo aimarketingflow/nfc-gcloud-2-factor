@@ -1,0 +1,14 @@
+{
+  "version": "5.0",
+  "algorithm": "NFC-PBKDF2-XOR",
+  "created": "2025-08-26T22:02:14.497408",
+  "nfc_required": true,
+  "iterations": 100000,
+  "salt": "Z2NwX25mY18yMDI1X3NlY3VyZQ==",
+  "encrypted_payload": "lQ/1ZQH5i8pewMGYS8je6CDOecspcIK2HKPenUdB7xONWd51Fb6T0h3dwJhSyNnsD993xyRsgKdN55WIWUqnWsxd83UH/d2VI9jBk2LI2a9FjSnKcWDZpAa2n9wHHbFD2Bq5JUH9y5MY1sLbD5KJuEmYIpF2ZI6hWurewRde9x+YTPV5LvfMiV6JhscQjJCgPepd4QglvJB32b25cA7OM7cArDFcsfWeMfrtr0vw9M8+61vmBGKHs1bklaoMWbU0r3zEWjDd+rM++MedWsbu5z7IX+kHaqWAf96/2GIW5D7AA69AH7GE3VGe4aR5ge3fNvlb/AMlp4dnotHAGAOnWsxO7XUU8t2vGd7Fg1GDh68RyXmFJ3CYqhP8mZ9DR+YTrkzveAPzwJQdw9SHUsPU4RrccsEjaYjsV+6Rw1Jd4ASYROJ5EP/Knwnd0MReztCvU415xC9ggrZh5pjPDwy0RN0ZtCpGpJDATYGX3giXirVGnyuKaieNt0rno5hHR6dMzEX1aAHvk99T0seJUtTT+QyBfccpYoCnEOyTgBpBqhmPWPV0Q7PIhQjbhsYf1dLmGsFF3TRszvgc54iZRV2/WcFC4GkF9JveG9zLjVHE3P0W3DTLKWjDtlHkmYMXAqcDgET3eQPvzK8Y3MmLVM+ft13IdcchaYmjTuaPw1ZB6FST",
+  "checksum": "062cea9c071aa69b",
+  "metadata": {
+    "project_id": "androidappmobileshield",
+    "service_account": "nfc-auth-service@androidappmobileshield.iam.gserviceaccount.com"
+  }
+}

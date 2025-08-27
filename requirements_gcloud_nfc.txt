@@ -1,0 +1,9 @@
+pyscard==2.0.7
+cryptography==41.0.7
+google-cloud-core==2.3.3
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-cloud-iam==2.12.1
+google-cloud-storage==2.10.0
+google-cloud-compute==1.14.1
+google-api-python-client==2.108.0

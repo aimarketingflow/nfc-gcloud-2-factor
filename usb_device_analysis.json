@@ -1,0 +1,532 @@
+{
+  "scan_time": "2025-08-26T13:42:00",
+  "total_devices": 123,
+  "suspicious_devices": [
+    {
+      "name": "Manufacturer Generic",
+      "details": {},
+      "analysis": {
+        "is_rfid_related": false,
+        "is_generic": true,
+        "is_known_rfid_vendor": false,
+        "suspicion_level": "MEDIUM"
+      }
+    },
+    {
+      "name": "Manufacturer Generic",
+      "details": {},
+      "analysis": {
+        "is_rfid_related": false,
+        "is_generic": true,
+        "is_known_rfid_vendor": false,
+        "suspicion_level": "MEDIUM"
+      }
+    }
+  ],
+  "all_devices": [
+    {
+      "name": "USB",
+      "details": {}
+    },
+    {
+      "name": "USB 3.1 Bus",
+      "details": {}
+    },
+    {
+      "name": "Host Controller Driver AppleIntelICLUSBXHCI",
+      "details": {}
+    },
+    {
+      "name": "PCI Device ID 0x8a13",
+      "details": {}
+    },
+    {
+      "name": "PCI Revision ID 0x0003",
+      "details": {}
+    },
+    {
+      "name": "PCI Vendor ID 0x8086",
+      "details": {}
+    },
+    {
+      "name": "4-Port USB 3.1 Hub",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x0411",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0x0bda  (Realtek Semiconductor Corp.)",
+      "details": {}
+    },
+    {
+      "name": "Version 1.26",
+      "details": {}
+    },
+    {
+      "name": "Speed Up to 5 Gb/s",
+      "details": {}
+    },
+    {
+      "name": "Manufacturer Generic",
+      "details": {},
+      "analysis": {
+        "is_rfid_related": false,
+        "is_generic": true,
+        "is_known_rfid_vendor": false,
+        "suspicion_level": "MEDIUM"
+      }
+    },
+    {
+      "name": "Location ID 0x0d400000 / 1",
+      "details": {}
+    },
+    {
+      "name": "Current Available (mA) 900",
+      "details": {}
+    },
+    {
+      "name": "Current Required (mA) 0",
+      "details": {}
+    },
+    {
+      "name": "Extra Operating Current (mA) 0",
+      "details": {}
+    },
+    {
+      "name": "USB 3.1 Bus",
+      "details": {}
+    },
+    {
+      "name": "Host Controller Driver AppleIntelICLUSBXHCI",
+      "details": {}
+    },
+    {
+      "name": "PCI Device ID 0x38ed",
+      "details": {}
+    },
+    {
+      "name": "PCI Revision ID 0x0010",
+      "details": {}
+    },
+    {
+      "name": "PCI Vendor ID 0x8086",
+      "details": {}
+    },
+    {
+      "name": "4-Port USB 2.1 Hub",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x5411",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0x0bda  (Realtek Semiconductor Corp.)",
+      "details": {}
+    },
+    {
+      "name": "Version 1.26",
+      "details": {}
+    },
+    {
+      "name": "Speed Up to 480 Mb/s",
+      "details": {}
+    },
+    {
+      "name": "Manufacturer Generic",
+      "details": {},
+      "analysis": {
+        "is_rfid_related": false,
+        "is_generic": true,
+        "is_known_rfid_vendor": false,
+        "suspicion_level": "MEDIUM"
+      }
+    },
+    {
+      "name": "Location ID 0x14400000 / 1",
+      "details": {}
+    },
+    {
+      "name": "Current Available (mA) 500",
+      "details": {}
+    },
+    {
+      "name": "Current Required (mA) 0",
+      "details": {}
+    },
+    {
+      "name": "Extra Operating Current (mA) 0",
+      "details": {}
+    },
+    {
+      "name": "USB 2.0 Hub",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x0801",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0x1a40  (TERMINUS TECHNOLOGY INC.)",
+      "details": {}
+    },
+    {
+      "name": "Version 1.00",
+      "details": {}
+    },
+    {
+      "name": "Speed Up to 480 Mb/s",
+      "details": {}
+    },
+    {
+      "name": "Location ID 0x14430000 / 2",
+      "details": {}
+    },
+    {
+      "name": "Current Available (mA) 500",
+      "details": {}
+    },
+    {
+      "name": "Current Required (mA) 100",
+      "details": {}
+    },
+    {
+      "name": "Extra Operating Current (mA) 0",
+      "details": {}
+    },
+    {
+      "name": "USB C Video Adaptor      ",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x9311",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0x9636",
+      "details": {}
+    },
+    {
+      "name": "Version 2.01",
+      "details": {}
+    },
+    {
+      "name": "Serial Number 000000000001",
+      "details": {}
+    },
+    {
+      "name": "Speed Up to 12 Mb/s",
+      "details": {}
+    },
+    {
+      "name": "Manufacturer USB C",
+      "details": {}
+    },
+    {
+      "name": "Location ID 0x14434000 / 3",
+      "details": {}
+    },
+    {
+      "name": "Current Available (mA) 500",
+      "details": {}
+    },
+    {
+      "name": "Current Required (mA) 0",
+      "details": {}
+    },
+    {
+      "name": "Extra Operating Current (mA) 0",
+      "details": {}
+    },
+    {
+      "name": "Keyboard Interface",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x0035",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0xffff",
+      "details": {}
+    },
+    {
+      "name": "Version 2.00",
+      "details": {}
+    },
+    {
+      "name": "Serial Number FFFFFFFFFFFF",
+      "details": {}
+    },
+    {
+      "name": "Speed Up to 12 Mb/s",
+      "details": {}
+    },
+    {
+      "name": "Manufacturer BARCODE SCANNER",
+      "details": {}
+    },
+    {
+      "name": "Location ID 0x14431000 / 10",
+      "details": {}
+    },
+    {
+      "name": "Current Available (mA) 500",
+      "details": {}
+    },
+    {
+      "name": "Current Required (mA) 500",
+      "details": {}
+    },
+    {
+      "name": "Extra Operating Current (mA) 0",
+      "details": {}
+    },
+    {
+      "name": "Ubertooth One",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x6002",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0x1d50",
+      "details": {}
+    },
+    {
+      "name": "Version 1.07",
+      "details": {}
+    },
+    {
+      "name": "Serial Number 04200017282499afbc8b0c61c12000f5",
+      "details": {}
+    },
+    {
+      "name": "Speed Up to 12 Mb/s",
+      "details": {}
+    },
+    {
+      "name": "Manufacturer Great Scott Gadgets",
+      "details": {}
+    },
+    {
+      "name": "Location ID 0x14420000 / 8",
+      "details": {}
+    },
+    {
+      "name": "Current Available (mA) 500",
+      "details": {}
+    },
+    {
+      "name": "Extra Operating Current (mA) 0",
+      "details": {}
+    },
+    {
+      "name": "Apple T2 Bus",
+      "details": {}
+    },
+    {
+      "name": "Host Controller Driver AppleUSBVHCIBCE",
+      "details": {}
+    },
+    {
+      "name": "Touch Bar Backlight",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x8102",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0x05ac (Apple Inc.)",
+      "details": {}
+    },
+    {
+      "name": "Version 2.01",
+      "details": {}
+    },
+    {
+      "name": "Serial Number 0000000000000000",
+      "details": {}
+    },
+    {
+      "name": "Manufacturer Apple Inc.",
+      "details": {}
+    },
+    {
+      "name": "Location ID 0x80700000",
+      "details": {}
+    },
+    {
+      "name": "Touch Bar Display",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x8302",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0x05ac (Apple Inc.)",
+      "details": {}
+    },
+    {
+      "name": "Version 2.01",
+      "details": {}
+    },
+    {
+      "name": "Serial Number 0000000000000000",
+      "details": {}
+    },
+    {
+      "name": "Manufacturer Apple Inc.",
+      "details": {}
+    },
+    {
+      "name": "Location ID 0x80600000",
+      "details": {}
+    },
+    {
+      "name": "Apple Internal Keyboard / Trackpad",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x027e",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0x05ac (Apple Inc.)",
+      "details": {}
+    },
+    {
+      "name": "Version 9.33",
+      "details": {}
+    },
+    {
+      "name": "Serial Number FM701830BYPN1R0AT+TRN",
+      "details": {}
+    },
+    {
+      "name": "Manufacturer Apple Inc.",
+      "details": {}
+    },
+    {
+      "name": "Location ID 0x80500000",
+      "details": {}
+    },
+    {
+      "name": "Headset",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x8103",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0x05ac (Apple Inc.)",
+      "details": {}
+    },
+    {
+      "name": "Version 2.16",
+      "details": {}
+    },
+    {
+      "name": "Serial Number 000000000000",
+      "details": {}
+    },
+    {
+      "name": "Manufacturer Apple",
+      "details": {}
+    },
+    {
+      "name": "Location ID 0x80400000",
+      "details": {}
+    },
+    {
+      "name": "Ambient Light Sensor",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x8262",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0x05ac (Apple Inc.)",
+      "details": {}
+    },
+    {
+      "name": "Version 2.01",
+      "details": {}
+    },
+    {
+      "name": "Serial Number 000000000000",
+      "details": {}
+    },
+    {
+      "name": "Manufacturer Apple Inc.",
+      "details": {}
+    },
+    {
+      "name": "Location ID 0x80300000",
+      "details": {}
+    },
+    {
+      "name": "FaceTime HD Camera (Built-in)",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x8514",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0x05ac (Apple Inc.)",
+      "details": {}
+    },
+    {
+      "name": "Version 2.01",
+      "details": {}
+    },
+    {
+      "name": "Serial Number CC20173CFU8J3Y32U",
+      "details": {}
+    },
+    {
+      "name": "Manufacturer Apple Inc.",
+      "details": {}
+    },
+    {
+      "name": "Location ID 0x80200000",
+      "details": {}
+    },
+    {
+      "name": "Apple T2 Controller",
+      "details": {}
+    },
+    {
+      "name": "Product ID 0x8233",
+      "details": {}
+    },
+    {
+      "name": "Vendor ID 0x05ac (Apple Inc.)",
+      "details": {}
+    },
+    {
+      "name": "Version 2.01",
+      "details": {}
+    },
+    {
+      "name": "Serial Number 0000000000000000",
+      "details": {}
+    },
+    {
+      "name": "Manufacturer Apple Inc.",
+      "details": {}
+    },
+    {
+      "name": "Location ID 0x80100000",
+      "details": {}
+    }
+  ]
+}

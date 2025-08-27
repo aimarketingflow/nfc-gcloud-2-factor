@@ -1,0 +1,96 @@
+# AIMF Authentication Server - Cloud Deployment Configuration
+# Deploy to Google Cloud Run for production NFC token verification
+# AIMF LLC - MobileShield NFC Chaos Writer Ecosystem
+
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: aimf-auth-server
+  annotations:
+    run.googleapis.com/ingress: all
+    run.googleapis.com/execution-environment: gen2
+spec:
+  template:
+    metadata:
+      annotations:
+        run.googleapis.com/memory: "512Mi"
+        run.googleapis.com/cpu: "1000m"
+        run.googleapis.com/max-instances: "10"
+        run.googleapis.com/min-instances: "1"
+    spec:
+      containerConcurrency: 1000
+      timeoutSeconds: 300
+      containers:
+      - image: gcr.io/androidappmobileshield/aimf-auth-server:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: AIMF_JWT_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: aimf-auth-secrets
+              key: jwt-secret
+        - name: REDIS_URL
+          valueFrom:
+            secretKeyRef:
+              name: aimf-auth-secrets
+              key: redis-url
+        - name: PORT
+          value: "8080"
+        - name: ENVIRONMENT
+          value: "production"
+        resources:
+          limits:
+            cpu: "1000m"
+            memory: "512Mi"
+          requests:
+            cpu: "200m"
+            memory: "256Mi"
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: aimf-auth-secrets
+type: Opaque
+stringData:
+  jwt-secret: "REPLACE_WITH_STRONG_JWT_SECRET_IN_PRODUCTION"
+  redis-url: "redis://aimf-redis:6379"
+---
+# Redis for session storage and rate limiting
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: aimf-redis
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aimf-redis
+  template:
+    metadata:
+      labels:
+        app: aimf-redis
+    spec:
+      containers:
+      - name: redis
+        image: redis:7-alpine
+        ports:
+        - containerPort: 6379
+        resources:
+          limits:
+            cpu: "500m"
+            memory: "256Mi"
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: aimf-redis
+spec:
+  selector:
+    app: aimf-redis
+  ports:
+  - port: 6379
+    targetPort: 6379
