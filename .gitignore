@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+*.vault
+.DS_Store
+*.log
+.chaos_vault/
+.nfc_vault/
+security_diagnostic_*.json
+usb_device_analysis*.json
